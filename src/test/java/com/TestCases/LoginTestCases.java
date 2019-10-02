@@ -24,7 +24,7 @@ public class LoginTestCases {
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.facebook1234.com");
 		driver.manage().window().maximize();
 	}
 	@AfterSuite
